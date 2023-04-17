@@ -11,9 +11,7 @@ concurrency:
 
 jobs:
 
-  build:
-
-    runs-on: ubuntu-latest
-
-    steps:
-      run: echo "hello"
+ some-validation:
+      - name: Some Checks
+        run: |
+            echo Some valitation
