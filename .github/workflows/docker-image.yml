@@ -10,8 +10,9 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-
- some-validation:
-      - name: Some Checks
-        run: |
+  some-validation:
+   runs-on: ubuntu-latest
+    steps:
+    - name: Some Checks
+      run: |
             echo "Some valitation"
