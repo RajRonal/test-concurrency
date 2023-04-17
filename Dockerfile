@@ -11,4 +11,6 @@ RUN npx db-migrate up
 
 COPY . .
 
+#comment to test deploy
+
 CMD ["npm", "start","dev"]
