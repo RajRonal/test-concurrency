@@ -12,7 +12,7 @@ concurrency:
 jobs:
   some-validation:
    runs-on: ubuntu-latest
-    steps:
-    - name: Some Checks
-      run: |
-            echo "Some valitation"
+   steps:
+   - name: Some Checks
+     run: |
+          echo "Some valitation"
