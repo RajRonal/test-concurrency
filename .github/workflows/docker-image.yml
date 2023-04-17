@@ -14,4 +14,4 @@ jobs:
  some-validation:
       - name: Some Checks
         run: |
-            echo Some valitation
+            echo "Some valitation"
